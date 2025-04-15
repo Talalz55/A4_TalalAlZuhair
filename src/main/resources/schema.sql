@@ -1,5 +1,7 @@
-CREATE TABLE STUDENT
-(
-    ID   LONG PRIMARY KEY AUTO_INCREMENT,
-    NAME VARCHAR(255)
+CREATE TABLE book (
+                      id BIGINT PRIMARY KEY AUTO_INCREMENT,
+                      title VARCHAR(255),
+                      author_name VARCHAR(255),
+                      price DOUBLE,
+                      quantity INT
 );

@@ -1,4 +1,4 @@
-// Name: Your Name, Student ID: Your ID
+// Name: Talal Al Zuhair, Student ID: 991658377
 package ca.sheridan.alzuhait.a4_webservices.model;
 import jakarta.persistence.*;
 import lombok.Data;

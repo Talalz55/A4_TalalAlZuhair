@@ -1,5 +1,5 @@
+// Name: Talal Al Zuhair, Student ID: 991658377
 package ca.sheridan.alzuhait.a4_webservices.controller;
-
 
 import ca.sheridan.alzuhait.a4_webservices.model.Book;
 import ca.sheridan.alzuhait.a4_webservices.repository.BookRepository;
@@ -12,6 +12,7 @@ import java.util.Optional;
 
 @RestController
 @RequestMapping("/books")
+@CrossOrigin(origins = "http://localhost:4200")
 public class BookController {
     @Autowired
     private BookRepository bookRepository;
